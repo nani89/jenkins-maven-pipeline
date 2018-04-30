@@ -68,7 +68,7 @@
 
 <distributionManagement>
 	<repository>
-		<id>release</id>
+		<id>Release</id>
 		<name>deploy-release</name>
 		<url>http://35.227.23.225:8081/repository/deploy-release/</url>
 	</repository>
