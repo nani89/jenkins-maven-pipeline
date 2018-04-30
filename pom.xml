@@ -66,5 +66,18 @@
 		</plugins>
 	</build>
 
+<distributionManagement>
+	<repository>
+		<id>release</id>
+		<name>deploy-release</name>
+		<url>http://35.227.23.225:8081/repository/deploy-release/</url>
+	</repository>
+ 
+	<snapshotRepository>
+		<id>Snapshot</id>
+		<name>deploy-snapshot</name>
+		<url>http://35.227.23.225:8081/repository/deploy-snapshot/</url>
+	</snapshotRepository>
+</distributionManagement>
 
 </project>
